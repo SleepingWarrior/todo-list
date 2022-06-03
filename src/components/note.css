@@ -1,0 +1,40 @@
+.notes-container {
+  background-color: grey;
+  width: 50%;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.notes-title {
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0.5rem;
+  text-align: left;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  /* background-color: aliceblue; */
+  color: blue;
+  border-radius: 5px;
+  height: 2.5rem;
+}
+
+.notes-content {
+  font-size: 1rem;
+  outline: none;
+  margin-top: 0;
+  height: 100%;
+  /* background-color: antiquewhite; */
+  width: 90%;
+  margin: 0 auto;
+  color: blue;
+}
+
+.notes-delete-btn {
+  /* border-radius: 3px; */
+  /* margin-right: 1rem; */
+  justify-content: end;
+}

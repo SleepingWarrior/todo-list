@@ -1,0 +1,71 @@
+.container {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-top: -5rem;
+  width: 50%;
+}
+
+.note-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1rem;
+}
+.note-form {
+  font-family: sans-serif;
+  height: 30rem;
+  flex-direction: column;
+  width: 40rem;
+  display: flex;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+
+.note-title {
+  border-radius: 5px;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  margin: 1rem auto;
+  width: 90%;
+  border: none;
+  font-family: monospace;
+}
+
+.note-content {
+  font-size: 1.3rem;
+  outline: none;
+  width: 90%;
+  margin: 1rem auto;
+  width: 90%;
+  border: none;
+  border-radius: 8px;
+}
+
+.note-title::placeholder,
+.note-content::placeholder {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.note-add-btn {
+  width: 25%;
+  margin-left: 70%;
+  height: 2rem;
+  margin-top: 0.2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  background-color: yellow;
+  color: blue;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 550;
+}
